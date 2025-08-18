@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices"],
+  "automerge": true,
+  "platformAutomerge": true,
+  "rangeStrategy": "bump",
+  "timezone": "Asia/Tokyo",
+  "schedule": ["* 4 * * 6"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "non-major dependencies",
+      "groupSlug": "non-major"
+    }
+  ]
+}
