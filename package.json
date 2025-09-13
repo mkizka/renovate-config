@@ -7,9 +7,11 @@
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^16.1.5",
-    "prettier": "^3.6.2"
+    "prettier": "^3.6.2",
+    "renovate": "^41.112.0"
   },
   "lint-staged": {
+    "!(package).json": "renovate-config-validator",
     "*": "prettier --write --ignore-unknown"
   }
 }
