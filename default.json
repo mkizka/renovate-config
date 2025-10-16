@@ -6,7 +6,7 @@
   "rangeStrategy": "bump",
   "timezone": "Asia/Tokyo",
   "schedule": ["* 4 * * 6"],
-  "minimumReleaseAge": "7 days",
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchDatasources": ["docker"],
