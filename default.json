@@ -5,7 +5,7 @@
   "platformAutomerge": true,
   "rangeStrategy": "bump",
   "timezone": "Asia/Tokyo",
-  "schedule": ["* 4 * * 6"],
+  "schedule": ["* 20 * * 5"],
   "minimumReleaseAge": "3 days",
   "packageRules": [
     {
