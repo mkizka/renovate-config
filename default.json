@@ -13,6 +13,7 @@
     },
     {
       "matchUpdateTypes": ["minor", "patch"],
+      "matchPackageNames": ["*"],
       "groupName": "non-major dependencies",
       "groupSlug": "non-major"
     }
