@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", "group:allNonMajor"],
+  "extends": ["config:best-practices"],
   "automerge": true,
   "platformAutomerge": true,
   "rangeStrategy": "bump",
@@ -11,6 +11,12 @@
     {
       "matchDatasources": ["docker"],
       "pinDigests": false
+    },
+    {
+      "groupName": "all non-major and digest dependencies",
+      "groupSlug": "all-minor-patch-digest",
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["minor", "patch", "digest"]
     }
   ]
 }
