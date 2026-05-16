@@ -7,7 +7,7 @@
   "rangeStrategy": "bump",
   "timezone": "Asia/Tokyo",
   "schedule": ["* 20-23 * * 6"],
-  "minimumReleaseAge": "3 days",
+  "minimumReleaseAge": "1 day",
   "prHourlyLimit": 10,
   "prConcurrentLimit": 10,
   "packageRules": [
