@@ -1,12 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:best-practices", ":maintainLockFilesMonthly"],
+  "ignorePresets": ["group:monorepos", "group:recommended"],
   "automerge": true,
   "platformAutomerge": true,
   "rangeStrategy": "bump",
   "timezone": "Asia/Tokyo",
   "schedule": ["* 0-4 * * 6"],
   "minimumReleaseAge": "3 days",
+  "prHourlyLimit": 10,
+  "prConcurrentLimit": 10,
   "packageRules": [
     {
       "matchDatasources": ["docker"],
