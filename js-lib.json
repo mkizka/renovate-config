@@ -1,4 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>mkizka/renovate-config", "config:js-lib"]
+  "extends": ["config:js-lib", "github>mkizka/renovate-config"]
 }
